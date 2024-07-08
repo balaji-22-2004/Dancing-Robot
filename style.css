@@ -1,0 +1,187 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+    position: relative;
+    left:48%;
+    width: 50px;
+    
+}
+.container{
+    width:100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform is ease-in-out;
+}
+.face{
+    position: relative;
+    height: 150px;
+    width:180px;
+    border-radius: 50% 50% 0px 0px;
+    background-color:#FCFCFC;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    margin-top: 200px;
+
+}
+.a{
+    width:10px;
+    height:35px;
+    position: absolute;
+    background-color:#FCFCFC;
+    border: 5px solid black;
+    top: -45px;
+    left:80px;
+    transition: transform is ease-in-out;
+}
+.l{
+    width:30px;
+    height:30px;
+    position: absolute;
+    background-color: #1C45A6;
+    border: 5px solid black;
+    top: -80px;
+    left:71px;
+    border-radius: 50%;
+
+}   
+.eye1{
+    width:35px;
+    height:35px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #1C45A6;
+    top: 50px;
+    left:20px;
+    border: 5px solid black;
+
+}
+.eye1:hover{
+    transform: scale(2)
+}
+.eye2{
+    width:35px;
+    height:35px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #1C45A6;
+    top: 50px;
+    right:15px;
+    border: 5px solid black;
+}
+.eye2:hover{
+    transform: scale(2)
+}
+.body{
+    position:relative;
+    height: 200px;
+    width:180px;
+    border-radius: 2px 2px 30% 30%;
+    background-color:#FCFCFC ;
+    border: 5px solid black;
+   
+}
+
+.hand1{
+    position:absolute;
+    width:50px;
+    height:120px;
+    border-radius: 30% 30% 30% 30%;
+    background-color:#FCFCFC ;
+    left:190px;
+    border: 5px solid black;
+   
+}
+.hand1:hover{
+    transform: rotate(100deg)
+}
+.hand2{
+    position:absolute;
+    width:50px;
+    height:120px;
+    border-radius: 30% 30% 30% 30%;
+    background-color: #FCFCFC;
+    right:190px;
+    border: 5px solid black;
+}
+.hand2:hover{
+    transform: rotate(90deg)
+}
+.leg1{
+    position:absolute;
+    width:50px;
+    height:120px;
+    border-radius: 30% 30% 30% 30%;
+    background-color:#FCFCFC;
+    left:110px;
+    top: 140px;
+    padding-top:5px;
+    border: 5px solid black;
+   
+}
+.leg1:hover{
+    transform: rotate(90deg)
+}
+.leg2{
+    position:absolute;
+    width:50px;
+    height:120px;
+    border-radius: 30% 30% 30% 30%;
+    background-color:#FCFCFC;
+    right:110px;
+    top: 140px;
+    padding-top: 5px;
+    border: 5px solid black;
+}
+.leg2:hover{
+    transform: rotate(90deg)
+}
+.mouth{
+    width:120px;
+    height:30px;
+    position: absolute;
+    background-color: #1C45A6;
+    top: 100px;
+    left:25px;
+    border: 5px solid black;
+    transition: transform is ease;
+}
+.display{
+    width:120px;
+    height:115px;
+    position: absolute;
+    background-color: #1C45A6;
+    top: 10px;
+    left:25px;
+    border-radius: 20%;
+    border: 5px solid black;
+    transition: ease;
+}
+body{
+    background-color: black;
+    color: #FCFCFC;
+}
+.mouth:hover{
+    transform: scale(0)
+
+}  
+.a:hover{
+    transform: scale(0)
+} 
+.l:hover{
+    transform: scale(2)
+}
+.display:hover{
+    transform: scale(0)
+}
+
+
+
+
+
+
